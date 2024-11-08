@@ -432,7 +432,6 @@ module post_fv3
             if (trim(attName) == 'nsoil')  wrt_int_state%nsoil=varival
             if (trim(attName) == 'fhzero')  wrt_int_state%fhzero=varival
             if (trim(attName) == 'imp_physics') wrt_int_state%imp_physics=varival
-            if (trim(attName) == 'landsfcmdl') wrt_int_state%landsfcmdl=varival
           endif
         else if (typekind==ESMF_TYPEKIND_R4) then
           if(n==1) then
